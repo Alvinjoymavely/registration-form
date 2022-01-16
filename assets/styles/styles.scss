@@ -1,0 +1,297 @@
+$font-poppins: 'Poppins', sans-serif;
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+figure {
+    margin: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.abc-container {
+    max-width: 89.53%;
+    margin: 0 auto;
+    @media screen and (max-width:992px) {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;       
+    }
+}
+address {
+    font-style: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+}
+p {
+    margin-top: 0;
+}
+input {
+    &:focus,
+    &:focus-visible {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+table {
+    width: 100%;
+}
+
+.registration-page {
+    background: #0077B6;
+    padding-bottom: 70px;
+    .registration-head {
+        padding-top: 70px;
+        .title-wrap {
+            margin-bottom: 85px;
+            text-align: center;
+        }
+        .logo-wrap {
+            img {
+                max-width: 110px;
+            }
+        }
+        &__title {
+            font-family: $font-poppins;
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 1;
+            color: #fff;
+            margin-bottom: 23px;
+            @media screen and (max-width:991.98px) {
+                font-size: 30px;                
+            }
+        }
+        &__company {
+            font-family: $font-poppins;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 1;
+            color: #fff;
+            @media screen and (max-width:991.98px) {
+                font-size: 24px;                
+            }
+        }
+        .address-and-logo-wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+            font-family: $font-poppins;
+            font-size: 24px;
+            font-weight: 400;
+            font-style: normal;
+            margin-bottom: 171px;
+            @media screen and (max-width:991.98px) {
+                font-size: 18px;                
+            }
+            a {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .registration-body {
+        .form-wrap {
+            .form-table-wrap {
+                background: #48CAE436;
+                padding: 60px 26px;
+                margin-bottom: 140px;
+                @media screen and (max-width:991.98px) {
+                    padding: 30px 10px;
+                }
+                .form-row {
+                    display: flex;
+                    margin: 0 -15px;
+                    @media screen and (max-width:1200px){
+                        flex-direction: column;                        
+                    }
+                    .form-section {
+                        flex: 0 0 50%;
+                        max-width: 50%;
+                        padding: 0 15px;
+                        @media screen and (max-width:1200px){
+                            max-width: 100%;
+                            padding-bottom: 40px;                        
+                        }
+                    }
+                }
+                .form-section {
+                    &__title {
+                        color: #fff;
+                        font-family: $font-poppins;
+                        font-size: 30px;
+                        font-weight: 600;
+                        margin-bottom: 46px;
+                        @media screen and (max-width:992px) {
+                            font-size: 24px;                            
+                        }
+                    }
+                    .form-table {
+                        width: 100%;
+                    }
+                }
+            }
+            tr {
+                display: flex;
+                &:first-child {
+                    td {
+                        border-top: 1px solid #4D4747;
+                        border-bottom: 1px solid #4D4747;
+                    }
+                }
+                &:last-child {
+                    td {
+                        border-bottom: 1px solid #4D4747;
+                    }
+                }
+                td {
+                    border-bottom: 1px solid #4D4747;
+                    min-height: 70px;
+                    margin: -1px;
+                }
+                .label-wrap {
+                    padding: 20px 30px;
+                    background: #BCE3EA;
+                    border-left: 1px solid #4D4747;
+                    flex: 0 0 291px;
+                    max-width: 291px;
+                    display: flex;
+                    align-items: center;
+                    @media screen and (max-width:1200px){
+                        max-width: 186px;
+                        width: 186px;     
+                        padding: 10px;                   
+                    }
+                    @media screen and (max-width:767.98px){
+                        max-width: 100px;
+                        width: 100px;     
+                        padding: 10px;                   
+                    }
+                    .form-query__label {
+                        font-family: $font-poppins;
+                        font-size: 24px;
+                        font-weight: 400;
+                        color: #000;
+                        @media screen and (max-width:1200px){
+                            font-size: 18px;                      
+                        }
+                        @media screen and (max-width:767.98px){
+                            font-size: 14px;                      
+                        }
+                    }
+                }
+                .input-wrap {
+                    width: 100%;
+                    background: #CAF0F8;
+                    border-left: 1px solid #4D4747;
+                    border-right: 1px solid #4D4747;
+                    flex: 1;
+                    input {
+                        background: inherit;
+                        border: none;
+                        width: 100%;
+                        height: 100%;
+                        font-family: $font-poppins;
+                        font-size: 24px;
+                        font-weight: 400;
+                        text-indent: 20px
+                    }
+                }
+            }
+        }
+        .mailing-address-table {
+            width: 100%;
+            tr {
+                td {
+                    border-top: none !important;
+                    border-bottom: 1px solid #4D4747 !important;
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+                &:last-child {
+                    td {
+                        border-bottom: none !important;
+                    }
+                }
+            }
+        }
+        .split-table {
+            &-inner {
+                width: 100%;
+                >tbody {
+                    >tr {
+                        display: flex;
+                        >td {
+                            flex: 0 0 50% !important;
+                            max-width: 50% !important;
+                        }
+                    }
+                }
+                .flex-table {
+                    height: 100%;
+                    tr {
+                        height: 100%;
+                    }
+                }
+            }
+            &-2 {
+                >tbody {
+                    >tr {
+                        display: flex;
+                        >td {
+                            flex: 0 0 50%;
+                            max-width: 50%;
+                        }
+                    }
+                }
+                table {
+                    height: 100%;
+                    tbody {
+                        tr {
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .mb-sec{
+            margin-bottom: 0px !important;
+        }
+        .form-section-1{
+            .form-table{
+                tr{
+                    td{
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+        .form-section-5 {
+            .form-section__title {
+                margin-bottom: 35px !important;
+            }
+            .form-section__description {
+                font-family: $font-poppins;
+                font-size: 18px;
+                font-weight: 400;
+                margin-bottom: 35px;
+                color: #fff;
+            }
+        }
+
+    }
+}

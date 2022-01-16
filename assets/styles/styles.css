@@ -1,0 +1,323 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.abc-container {
+  max-width: 89.53%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 992px) {
+  .abc-container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+address {
+  font-style: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+input:focus, input:focus-visible {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+table {
+  width: 100%;
+}
+
+.registration-page {
+  background: #0077B6;
+  padding-bottom: 70px;
+}
+.registration-page .registration-head {
+  padding-top: 70px;
+}
+.registration-page .registration-head .title-wrap {
+  margin-bottom: 85px;
+  text-align: center;
+}
+.registration-page .registration-head .logo-wrap img {
+  max-width: 110px;
+}
+.registration-page .registration-head__title {
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 23px;
+}
+@media screen and (max-width: 991.98px) {
+  .registration-page .registration-head__title {
+    font-size: 30px;
+  }
+}
+.registration-page .registration-head__company {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
+@media screen and (max-width: 991.98px) {
+  .registration-page .registration-head__company {
+    font-size: 24px;
+  }
+}
+.registration-page .registration-head .address-and-logo-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 171px;
+}
+@media screen and (max-width: 991.98px) {
+  .registration-page .registration-head .address-and-logo-wrap {
+    font-size: 18px;
+  }
+}
+.registration-page .registration-head .address-and-logo-wrap a:hover {
+  text-decoration: underline;
+}
+.registration-page .registration-body .form-wrap .form-table-wrap {
+  background: #48CAE436;
+  padding: 60px 26px;
+  margin-bottom: 140px;
+}
+@media screen and (max-width: 991.98px) {
+  .registration-page .registration-body .form-wrap .form-table-wrap {
+    padding: 30px 10px;
+  }
+}
+.registration-page .registration-body .form-wrap .form-table-wrap .form-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+}
+@media screen and (max-width: 1200px) {
+  .registration-page .registration-body .form-wrap .form-table-wrap .form-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.registration-page .registration-body .form-wrap .form-table-wrap .form-row .form-section {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
+}
+@media screen and (max-width: 1200px) {
+  .registration-page .registration-body .form-wrap .form-table-wrap .form-row .form-section {
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
+}
+.registration-page .registration-body .form-wrap .form-table-wrap .form-section__title {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 46px;
+}
+@media screen and (max-width: 992px) {
+  .registration-page .registration-body .form-wrap .form-table-wrap .form-section__title {
+    font-size: 24px;
+  }
+}
+.registration-page .registration-body .form-wrap .form-table-wrap .form-section .form-table {
+  width: 100%;
+}
+.registration-page .registration-body .form-wrap tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.registration-page .registration-body .form-wrap tr:first-child td {
+  border-top: 1px solid #4D4747;
+  border-bottom: 1px solid #4D4747;
+}
+.registration-page .registration-body .form-wrap tr:last-child td {
+  border-bottom: 1px solid #4D4747;
+}
+.registration-page .registration-body .form-wrap tr td {
+  border-bottom: 1px solid #4D4747;
+  min-height: 70px;
+  margin: -1px;
+}
+.registration-page .registration-body .form-wrap tr .label-wrap {
+  padding: 20px 30px;
+  background: #BCE3EA;
+  border-left: 1px solid #4D4747;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 291px;
+          flex: 0 0 291px;
+  max-width: 291px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 1200px) {
+  .registration-page .registration-body .form-wrap tr .label-wrap {
+    max-width: 186px;
+    width: 186px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .registration-page .registration-body .form-wrap tr .label-wrap {
+    max-width: 100px;
+    width: 100px;
+    padding: 10px;
+  }
+}
+.registration-page .registration-body .form-wrap tr .label-wrap .form-query__label {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+}
+@media screen and (max-width: 1200px) {
+  .registration-page .registration-body .form-wrap tr .label-wrap .form-query__label {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .registration-page .registration-body .form-wrap tr .label-wrap .form-query__label {
+    font-size: 14px;
+  }
+}
+.registration-page .registration-body .form-wrap tr .input-wrap {
+  width: 100%;
+  background: #CAF0F8;
+  border-left: 1px solid #4D4747;
+  border-right: 1px solid #4D4747;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.registration-page .registration-body .form-wrap tr .input-wrap input {
+  background: inherit;
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-indent: 20px;
+}
+.registration-page .registration-body .mailing-address-table {
+  width: 100%;
+}
+.registration-page .registration-body .mailing-address-table tr td {
+  border-top: none !important;
+  border-bottom: 1px solid #4D4747 !important;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+}
+.registration-page .registration-body .mailing-address-table tr:last-child td {
+  border-bottom: none !important;
+}
+.registration-page .registration-body .split-table-inner {
+  width: 100%;
+}
+.registration-page .registration-body .split-table-inner > tbody > tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.registration-page .registration-body .split-table-inner > tbody > tr > td {
+  -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 50% !important;
+          flex: 0 0 50% !important;
+  max-width: 50% !important;
+}
+.registration-page .registration-body .split-table-inner .flex-table {
+  height: 100%;
+}
+.registration-page .registration-body .split-table-inner .flex-table tr {
+  height: 100%;
+}
+.registration-page .registration-body .split-table-2 > tbody > tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.registration-page .registration-body .split-table-2 > tbody > tr > td {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+}
+.registration-page .registration-body .split-table-2 table {
+  height: 100%;
+}
+.registration-page .registration-body .split-table-2 table tbody tr {
+  height: 100%;
+}
+.registration-page .registration-body .mb-sec {
+  margin-bottom: 0px !important;
+}
+.registration-page .registration-body .form-section-1 .form-table tr td {
+  margin: 0px;
+}
+.registration-page .registration-body .form-section-5 .form-section__title {
+  margin-bottom: 35px !important;
+}
+.registration-page .registration-body .form-section-5 .form-section__description {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 35px;
+  color: #fff;
+}
+/*# sourceMappingURL=styles.css.map */
